@@ -5,7 +5,7 @@ from telegram.ext import Application, CommandHandler, MessageHandler, filters, C
 import yt_dlp
 
 # Token එක GitHub Secrets වලින් ලබා ගනී
-BOT_TOKEN = os.getenv("8223258693:AAF-KHKFcD563WLE8zc21Jkwlr30dvHZY-Q")
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 async def download_song(url):
     ydl_opts = {
